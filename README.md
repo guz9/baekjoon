@@ -1,4 +1,15 @@
-# baekjoon
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
-
-마크다운
+# 
+# 백준 & 프로그래머스 문제 풀이 목록
+## 📚 백준
+### 🚀 Bronze
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|
+|1001. A－B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.java)|
+|1008. A／B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1008.%E2%80%85A%EF%BC%8FB/README.md)|
+|10869. 사칙연산|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10869.%E2%80%85%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0.java)|
+|10926. ？？！|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10926.%E2%80%85%EF%BC%9F%EF%BC%9F%EF%BC%81/README.md)|
+|10998. A×B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10998.%E2%80%85A%C3%97B/A%C3%97B.java)|
+|18108. 1998년생인 내가 태국에서는 2541년생？！|[링크](./%EB%B0%B1%EC%A4%80/Bronze/18108.%E2%80%851998%EB%85%84%EC%83%9D%EC%9D%B8%E2%80%85%EB%82%B4%EA%B0%80%E2%80%85%ED%83%9C%EA%B5%AD%EC%97%90%EC%84%9C%EB%8A%94%E2%80%852541%EB%85%84%EC%83%9D%EF%BC%9F%EF%BC%81/1998%EB%85%84%EC%83%9D%EC%9D%B8%E2%80%85%EB%82%B4%EA%B0%80%E2%80%85%ED%83%9C%EA%B5%AD%EC%97%90%EC%84%9C%EB%8A%94%E2%80%852541%EB%85%84%EC%83%9D%EF%BC%9F%EF%BC%81.java)|
+|2557. Hello World|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/Hello%E2%80%85World.java)|
+|3003. 킹， 퀸， 룩， 비숍， 나이트， 폰|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3003.%E2%80%85%ED%82%B9%EF%BC%8C%E2%80%85%ED%80%B8%EF%BC%8C%E2%80%85%EB%A3%A9%EF%BC%8C%E2%80%85%EB%B9%84%EC%88%8D%EF%BC%8C%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EF%BC%8C%E2%80%85%ED%8F%B0/%ED%82%B9%EF%BC%8C%E2%80%85%ED%80%B8%EF%BC%8C%E2%80%85%EB%A3%A9%EF%BC%8C%E2%80%85%EB%B9%84%EC%88%8D%EF%BC%8C%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EF%BC%8C%E2%80%85%ED%8F%B0.java)|
