@@ -1,23 +1,19 @@
-import java.util.*;
+import java.io.*;
 
 public class Main {
-
-	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws NumberFormatException, IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int num = sc.nextInt();
-		int a = num / 10;
-		int b = num % 10;
-		int c = (a + b) % 10;
-		int tem = (b * 10) + c;
-		int count = 1;
+		int num = Integer.parseInt(br.readLine());
+		int copy = num;
+		int count = 0;
 		
-		while (num != tem) {
-			a = tem / 10;
-			b = tem % 10;
-			c = (a + b) % 10;
-			tem = (b * 10) + c;
+		while (true) {
+			num = ((num % 10) * 10) + (((num / 10) + (num % 10)) % 10);
 			count++;
+			if (copy == num) {
+				break;
+			}
 		}
 		System.out.println(count);
 	}
