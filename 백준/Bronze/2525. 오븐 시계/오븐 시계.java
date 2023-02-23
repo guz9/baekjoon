@@ -1,18 +1,38 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);		
-
-		int h = sc.nextInt();
-		int m = sc.nextInt();
-		int t = sc.nextInt();
-
-		int endH = h + ((m + t) / 60);
-		int endM = (m + t) % 60;
+		Scanner sc = new Scanner(System.in);
 		
-		endH = endH > 23 ? endH % 24 : endH;
+		int hour = sc.nextInt();
+		int min = sc.nextInt();
+		int timer = sc.nextInt();
 		
-		System.out.printf("%d %d", endH, endM);
+		int timeMin = timer%60;
+		int timeHour = timer/60;
+		
+		boolean ch = hour > -1 && hour < 24 && min >-1 && min < 60 && timer >=0 && timer <= 1000;
+		
+		if (ch) {
+			if (timer <= 60) {
+				if (min + timer < 60) {
+					System.out.printf("%d %d", hour, min+timer);
+				}else if(min + timer >= 60 && hour <23) {
+					System.out.printf("%d %d", hour+1, min+timer-60);
+				}else if(min + timer >= 60 && hour == 23) {
+					System.out.printf("%d %d", hour-23, min+timer-60);
+				}
+			}else if(timer >60) {
+				if (min + timeMin<60 && hour + timeHour<24) {
+					System.out.printf("%d %d", hour+timeHour, min+timeMin);
+				}else if (min + timeMin<60 && hour + timeHour>=24) {
+					System.out.printf("%d %d", hour+timeHour -24, min+timeMin);
+				}else if (min + timeMin>=60 && hour + timeHour+1<24) {
+					System.out.printf("%d %d", hour+timeHour+1, min+timeMin-60);
+				}else if (min + timeMin>=60 && hour + timeHour+1>=24) {
+					System.out.printf("%d %d", hour+timeHour+1-24, min+timeMin-60);
+				}
+			}
+		}
 	}
 }
