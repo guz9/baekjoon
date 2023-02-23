@@ -1,10 +1,15 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class Main {
-
+class Main {
 	public static void main(String[] args) {
+		
+		int buddhismYear = 543;
+		
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		System.out.println(a - 543);
+		int findYear = sc.nextInt();
+		
+		System.out.printf("%d",findYear-buddhismYear);
+		
+		
 	}
 }
